@@ -9,7 +9,7 @@
         WindowStyle="None"
         ResizeMode="NoResize"
         Background="Transparent"
-        AllowDrop="True">
+        AllowsTransparency="True">
     <Border Background="#272537"
             CornerRadius="20">
         <Grid>
@@ -34,17 +34,25 @@
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"/>
-                <RadioButton Content="Home"
+                <RadioButton Content="Discovery"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"/>
-                <RadioButton Content="Home"
+                <RadioButton Content="Featured"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"/>
             </StackPanel>
+
+            <TextBlock Width="250"
+                       Height="40"
+                       Background="White"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Left"
+                       Margin="5"
+                       Grid.Column="1"/>
         </Grid>
     </Border>
 </Window>
